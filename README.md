@@ -7,6 +7,9 @@
 
 For more information about the game: https://en.wikipedia.org/wiki/Kalah
 
+### This is Google Cloud Platform Version for Kalah
+For deployed Gcloud URL: https://kalah-229912.appspot.com
+
 ### Installation
 
 - Import the code to any IDE
