@@ -5,10 +5,11 @@ import com.bol.kalah.exception.UnsupportedKalahOperationException;
 import com.bol.kalah.model.Game;
 import com.bol.kalah.model.enums.Side;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public abstract class AbstractGameState implements GameState {
+public abstract class AbstractGameState implements GameState, Serializable{
     protected final int SOUTH_KALAH = 6;
     protected final int NORTH_KALAH = 13;
 

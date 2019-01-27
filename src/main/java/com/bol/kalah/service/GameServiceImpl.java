@@ -8,9 +8,13 @@ import com.bol.kalah.model.enums.State;
 import com.bol.kalah.state.GameStateFactory;
 import com.bol.kalah.state.model.GameState;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.annotation.SessionScope;
+
+import java.io.Serializable;
 
 @Service
-public class GameServiceImpl implements GameService {
+@SessionScope
+public class GameServiceImpl implements GameService, Serializable {
 
     private GameState gameState;
     private Game game;
