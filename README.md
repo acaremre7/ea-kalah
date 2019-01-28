@@ -3,25 +3,26 @@
 [![Build Status](https://travis-ci.org/acaremre7/ea-kalah.svg?branch=master)](https://travis-ci.org/acaremre7/ea-kalah) 
 [![Coverage Status](https://coveralls.io/repos/github/acaremre7/ea-kalah/badge.svg?branch=master)](https://coveralls.io/github/acaremre7/ea-kalah?branch=master)
 
-## Kalah web application made for bol.com
+# This is Google Cloud Platform Version for Kalah game, made for bol.com
+**For the live application, please refer to: https://kalah-229912.appspot.com**
 
 For more information about the game: https://en.wikipedia.org/wiki/Kalah
-
-### This is Google Cloud Platform Version for Kalah
-For deployed Gcloud URL: https://kalah-229912.appspot.com
 
 ### Installation
 
 - Import the code to any IDE
 - Wait for Maven to resolve dependencies
-- Make sure port 80 is not being used by any other applications on your computer
-- Run com.bol.kalah.KalahApplication.main()
-- Open http://localhost in any browser
-
+- Make sure port 8080 is not being used by any other applications on your computer
+- run
+```
+mvn appengine:run
+```
+to run the application with maven appengine plugin
 ### Built With
 
 * [Spring Boot](http://spring.io/projects/spring-boot) - To simplify web application server settings
 * [Maven](https://maven.apache.org/) - Dependency Management
+* [App Engine](https://cloud.google.com/appengine/) - Serverless cloud platform
 
 ### Design Patterns Used
 * [State Pattern](https://en.wikipedia.org/wiki/State_pattern) - Learn more on https://en.wikipedia.org/wiki/Finite-state_machine
